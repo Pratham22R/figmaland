@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
       dot.addEventListener('click', () => showTestimonial(index));
     });
 
-    // Auto-rotate testimonials
     setInterval(() => {
       currentTestimonial = (currentTestimonial + 1) % testimonials.length;
       showTestimonial(currentTestimonial);
